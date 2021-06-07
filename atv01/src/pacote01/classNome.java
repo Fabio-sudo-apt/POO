@@ -4,10 +4,10 @@ public class classNome{
     public  classNome() {
         
     }
-    public classNome(String nome,String sobrenome ,int idade){
+    public classNome(String nome,String sobrenome ,int matricula){
         setNome(nome);
         setSobrenome(sobrenome);
-        setIdade(idade);
+        setMatricula(matricula);
     }
     public String getNome(){
         return nome;
@@ -21,15 +21,15 @@ public class classNome{
     public void setSobrenome(String sobrenome){
         this.sobrenome = sobrenome;
     }
-    public int getIdade(){
-        return idade;
+    public int getMatricula(){
+        return matricula;
     }
-    public void setIdade(int idade){
-        this.idade = idade;
+    public void setMatricula(int matricula){
+        this.matricula = matricula;
     }
     private String nome;
     private String sobrenome;
-    private int idade;
+    private int matricula;
     
 
 }
